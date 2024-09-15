@@ -1,0 +1,49 @@
+.referral-code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.code-section {
+  flex-grow: 1;
+}
+
+.code-copy {
+  display: flex;
+  align-items: center;
+}
+
+.code-copy input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.code-copy button {
+  background-color: #e0e0ff;
+  color: #666;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.code-copy button:hover {
+  background-color: #d0d0ff;
+}
+
+.share-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}

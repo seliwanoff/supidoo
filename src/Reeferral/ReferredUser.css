@@ -1,0 +1,43 @@
+.referred-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+}
+
+.status-icon {
+  font-size: 20px;
+}
+
+.status-icon.verified {
+  color: green;
+}
+
+.status-icon.not-verified {
+  color: red;
+}

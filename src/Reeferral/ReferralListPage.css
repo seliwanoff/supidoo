@@ -1,0 +1,23 @@
+.referral-list-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.referral-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.referral-header h1 {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 24px;
+}
+
+.referred-users-list {
+  padding: 20px 0;
+}

@@ -1,0 +1,31 @@
+.cashback-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cashback-section h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.cashback-section p {
+  margin: 5px 0 0 0;
+  color: #fff;
+}
+
+.view-button {
+  background-color: #e0e0ff;
+  color: #666;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #d0d0ff;
+}

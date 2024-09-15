@@ -1,0 +1,50 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.terms-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.terms-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 750px;
+  width: 100%;
+}
+
+.terms-content h1 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.terms-content section {
+  margin-bottom: 20px;
+}
+
+.terms-content h2 {
+  color: #000;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.terms-content p {
+  margin-bottom: 10px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.terms-content section:last-of-type {
+  margin-bottom: 0;
+}

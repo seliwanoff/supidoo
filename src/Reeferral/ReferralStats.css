@@ -1,0 +1,41 @@
+.referral-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.referral-stats p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.referral-stats h3 {
+  margin: 10px 0;
+}
+
+.history-button {
+  background-color: #e0e0ff;
+  color: #666;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history-button:hover {
+  background-color: #d0d0ff;
+}

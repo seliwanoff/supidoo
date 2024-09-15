@@ -1,0 +1,567 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  /** background-image: url("../images/bg-03-bg.webp") !important; **/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff !important;
+}
+h6 {
+  color: #ccc !important;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  background-color: #020202;
+}
+
+#loading {
+  margin: 300px auto;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  min-width: 70px;
+}
+/* styles.css */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary {
+  list-style: none;
+}
+.head1 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.span1 {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.container-main {
+  width: 100%;
+  margin: 0px;
+  min-height: 900px;
+  height: 100%;
+}
+
+.scnd-con-mani {
+  margin: 0px auto;
+  max-width: 1519.2px;
+  min-width: 100%;
+  padding: 10px;
+}
+
+.top-notch-bg {
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #fa4299;
+  min-height: 100px;
+  max-height: 100px;
+  height: 100%;
+  padding: 10px;
+  justify-content: center;
+  display: grid;
+}
+
+.animated-button {
+  background-color: #4caf50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get it to line up properly */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.1s ease; /* Smooth animation */
+}
+
+.animated-button:active {
+  transform: scale(0.95); /* Scale down the button */
+}
+
+.animated-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.instruction-text {
+  font-size: 1rwm; /* Increase font size */
+  margin-bottom: 20px; /* Some margin below the text */
+}
+
+.token-input {
+  padding: 10px; /* Some padding */
+  font-size: 16px; /* Increase font size */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #fa4299; /* Red border */
+  margin-bottom: 10px; /* Some margin below the input */
+  grid-column: 1 / span 2; /* Span across two columns */
+}
+.token-input:focus {
+  border-color: #fa4299 !important; /* Change border color on focus */
+  outline: none !important; /* Remove default focus outline */
+}
+.container-input {
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+  gap: 10px; /* Gap between grid items */
+  max-width: 400px; /* Max width of the grid container */
+  margin: auto; /* Center the grid container */
+}
+.copy_text {
+  background-color: #fa4299;
+  padding: 4px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 4px;
+  max-width: 400px;
+  width: 100%;
+}
+.wallet-balance-con {
+  background-color: #000;
+  position: absolute;
+  box-sizing: border-box;
+  width: 95%;
+  justify-self: center;
+  top: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 4px 0px #ccc;
+}
+
+.balance {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6,
+h5 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.deposit-balance {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.main-depo {
+  padding: 10px;
+}
+
+.balance {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.coin {
+  font-size: 24px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#deposit-con {
+  background-color: #54d400;
+  color: #000;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #54d400;
+  max-width: 150px;
+  min-width: 100px;
+}
+
+.header-container {
+  margin: 10px 20px;
+  border-bottom: 1px solid #cccc;
+}
+
+.arrow-head {
+  max-width: 200px;
+  background-color: #54d400;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  min-height: 30px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.table-head {
+  position: relative;
+  background-color: #000f;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.scd-table {
+  overflow-x: scroll;
+  border: 1px solid black;
+}
+
+table,
+tr {
+  border-bottom: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  min-width: 500px;
+  margin: 10px;
+  color: #ccc;
+}
+
+th {
+  margin: 10px;
+  color: #ccc;
+  min-width: 120px;
+}
+td {
+  min-width: 120px;
+}
+#buy {
+  border: 1px solid #54d400;
+  background: #54d400;
+  color: black;
+  outline: none;
+  font-weight: 400;
+}
+
+.next-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.center-div-page {
+  padding: 10px;
+  margin: 10px;
+}
+
+.next-page-bt {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+  background: none;
+}
+
+.change-profile {
+  max-width: 600px;
+  margin: 40px auto;
+  width: 90%;
+  background: white;
+  border: 1px solid black;
+}
+
+.form-table {
+  padding: 10px;
+  margin: 0px 0px;
+  border: 1px solid green;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  width: 100%;
+}
+
+.con-wallet-panel {
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.mid-con-wallet {
+  padding: 10px;
+  min-width: 200px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.eachbtn-con {
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ccc;
+}
+
+.btnwallet {
+  border: 1px solid #54d400;
+  background-color: #54d400;
+  font-size: 12px;
+  max-width: 100px;
+  max-height: 30px;
+  min-width: 70px;
+  cursor: pointer;
+}
+
+.dialog-con {
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.second-dialog {
+  justify-content: space-between;
+  display: flex;
+}
+
+.ech-dialog {
+  box-shadow: 1px 0px 4px 0px #ccc;
+  width: 100%;
+  background-color: #000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.main-order {
+  box-shadow: 1px 0px 4px 0px #ccc;
+  background-color: #000;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.my-order {
+  padding: 10px;
+  margin: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  border-radius: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.list-icon a {
+  color: #000;
+  text-align: right;
+  font-size: 14px;
+  flex-direction: column-reverse;
+}
+
+.order-check {
+  box-shadow: 1px 0px 4px 0px #ccc;
+  background-color: #000;
+}
+
+.each-order-check {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid black;
+}
+
+.each-order-log {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.instruction {
+  position: fixed;
+  top: 0px;
+  background: rgb(100, 98, 98, 0.45);
+  border-radius: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: none;
+  margin-left: -12px;
+  overflow: hidden;
+}
+
+.main-instruction {
+  max-width: 600px;
+  min-width: 300px;
+  width: 90%;
+  background: #454545;
+  min-height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 16px 8px;
+}
+
+.in-title,
+h5 {
+  text-align: center;
+  color: #020202;
+}
+
+.in-title h5 {
+  text-decoration: underline;
+}
+
+.main-instruct {
+  color: #020202;
+  font-weight: 4000;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+}
+
+.main-instruct ol {
+  float: left;
+  margin-left: -30px;
+  list-style: circle;
+}
+
+.main-instruct ol li {
+  list-style: block;
+  margin-top: 10px;
+}
+
+.deposit {
+  padding: 10px;
+}
+
+label {
+  width: 100%;
+  font-weight: 500;
+}
+
+.deposit input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #000;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-mmn {
+  border-bottom: none !important;
+  background-color: #000000;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.deposit button {
+  margin-top: 20px;
+}
+
+.message-titlt {
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.main-message-1 {
+  max-width: 600px;
+  width: 100%;
+  background-color: yellowgreen;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: #ccc;
+  display: none;
+}
+
+.main-purchase {
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  margin-top: 60px;
+  width: 100%;
+  min-width: 600px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.ech-forn-group {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.side-bar-con {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #ccc;
+}
+.status_container {
+  margin: 0px auto;
+  display: flex;
+
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+
+  gap: 10px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0px 8px;
+}
+.status_container span {
+  color: #c1121f;
+}
+.status_container a {
+  color: #03071e;
+}
+.tast-container {
+  padding: 0px 20px 0px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.tast-container span {
+  color: #03071e;
+  font-size: 1.1rem;
+  line-height: 42px;
+}
+.tast-container a {
+  color: #fa4299;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1rem;
+}
